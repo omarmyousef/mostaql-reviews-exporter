@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.2",
+    "excel4node": "^1.8.2",
+    "express": "^4.18.2",
+    "jsdom": "^22.1.0"
+  },
+  "name": "mostaql-reviews-exporter",
+  "version": "1.0.0",
+  "description": "Made by: Omar M. Youssef (+20 1024865245)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Omar M. Youssef",
+  "license": "ISC"
+}

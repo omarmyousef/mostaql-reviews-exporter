@@ -1,0 +1,122 @@
+html {
+    padding: none;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    font-family: 'Cairo', sans-serif;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+/*::selection { background: #4cb5f5; }*/
+
+.main-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: min( calc(100% - 64px), 720px );
+    height: fit-content;
+    margin-block: 64px;
+    margin-top: 128px;
+}
+
+.distribute-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 16px;
+}
+
+.input-title {
+    color: #76afe8;
+    margin: 12px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.buttons-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 16px;
+    width: calc( 100% - 32px );
+}
+
+.field {
+    font-family: 'Cairo', sans-serif;
+    background-color: #ffffff;
+    color: #2c8ac7;
+    border-color: #2c8ac7;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    padding: 12px;
+    padding-inline: 24px;
+    font-size: medium;
+    width: calc( 100% - 48px );
+}
+
+.button {
+    font-family: 'Cairo', sans-serif;
+    background-color: #45a4e2;
+    color: #ffffff;
+    border-color: #2c8ac7;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px;
+    padding-inline: 16px;
+    border-radius: 8px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #59b7f7;
+}
+
+.logo {
+    width: 128px;
+    margin-left: -24px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .distribute-row {
+       flex-direction: column;
+    }
+    .buttons-row {
+        padding-inline: 0px;
+        width: 100%;
+    }
+ }

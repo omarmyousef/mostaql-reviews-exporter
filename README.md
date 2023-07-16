@@ -2,7 +2,7 @@
 Export profile reviews to an excel file
 Using web scraping
 
-![Screenshot](https://github.com/omarmyousef/mostaql-reviews-exporter/assets/57846393/91989f14-ff69-4146-827e-99f5271721c3)
+![Screenshot](https://github.com/omarmyousef/mostaql-reviews-exporter/assets/57846393/92bd1f8c-e572-478c-a742-492d2d38b286)
 
 ### how to run
 - git clone https://github.com/omarmyousef/mostaql-reviews-exporter
